@@ -1,12 +1,12 @@
 void main(List<String> args) {
-  final int val = int.parse(args[0]);
+  String numberStr = args[0];
+  int number = int.parse(numberStr);
 
-  switch (val) {
-    case > 0:
-      print('$val is postive');
-    case == 0:
-      print('$val is zero');
-    case < 0:
-      print('$val is negative');
+  if (number > 0) {
+    print('$number is positive');
+  } else if (number == 0) {
+    print('$number is zero');
+  } else {
+    print('$number is negative');
   }
 }
