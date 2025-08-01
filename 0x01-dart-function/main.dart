@@ -1,7 +1,5 @@
-import '10-longest-palindrome.dart';
+import '4-outer_inner.dart';
 
-main() {
-  print(longestPalindrome("abcde"));
-  print(longestPalindrome("azeghjhg"));
-  print(longestPalindrome("aaabvf"));
+void main() {
+  outer("Youssef Belhadj", "001");
 }
